@@ -19,7 +19,7 @@ function appendName(message) {
 	let messageBox = document.getElementById("message_container");
 	if (messageBox == null) return;
 
-	messageBox.innerHTML = `Happy Birthday ${message != null ? message : "to you!"}`;
+	messageBox.innerHTML = `Chúc Mừng Sinh Nhật ${message != null ? message : "Phạm Trí Thuận Ngày 14 Tháng 12 Năm 2004!"}`;
 }
 
 function appendCandles(candlesCount) {
